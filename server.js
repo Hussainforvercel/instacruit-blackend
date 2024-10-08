@@ -39,4 +39,4 @@ app.listen(PORT, () => {
   console.log("CLIENT_URL from .env:", process.env.CLIENT_URL);
 });
 
-export default app;
+module.exports = app;
