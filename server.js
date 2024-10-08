@@ -38,3 +38,5 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
   console.log("CLIENT_URL from .env:", process.env.CLIENT_URL);
 });
+
+export default app;
